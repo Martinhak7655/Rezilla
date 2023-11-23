@@ -1,0 +1,163 @@
+.neighborhood {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.neighborhood-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.neighborhood-around2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.neighborhood-div1 {
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/cb342f15fb4f38dac987650529c9ef447d378764?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.neighborhood-div2 {
+    width: 300px;
+    height: 320px;
+    border-radius: 20px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/c4ea3e252db5f5baf15c5f9b74ee5561ae45e766?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.neighborhood-div3 {
+    width: 420px;
+    height: 320px;
+    border-radius: 20px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/676b324ea6e4ebc4cdef016c769251d115d020a5?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.neighborhood-div4 {
+    width: 420px;
+    height: 320px;
+    border-radius: 20px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/1fa33cecd27a6a9c14dae9f3b23138d8a84fef4a?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.neighborhood-div5 {
+    width: 658px;
+    height: 320px;
+    border-radius: 20px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/57f858294789792d8e3ff6ed2aa7b304fedf4612?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.neighborhood-around3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.neighborhood-div6 {
+    width: 200px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.neighborhood-img1 {
+    width: 100%;
+    height: 280px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/de871a6e5ba179d3108c0fe0313f98e990f3c24e?fuid=1209954091980522394);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.neighborhood-img2 {
+    width: 100%;
+    height: 280px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/a3da74e84e8d08160f1e2d4fb6f3a584d79a10cb?fuid=1209954091980522394);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.neighborhood-img3 {
+    width: 100%;
+    height: 280px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/617a967d58022bb707c2f752c723661e2519e1ce?fuid=1209954091980522394);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.neighborhood-img4 {
+    width: 100%;
+    height: 280px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/731701edf5d85723e9c37fc2597b782a416f97d9?fuid=1209954091980522394);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media screen and (max-width: 1088px) {
+    .neighborhood {
+        height: 3600px;
+    }
+
+    .neighborhood-around {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .neighborhood-around2 {
+        flex-wrap: wrap;
+    }
+
+    .neighborhood-around3 {
+        flex-wrap: wrap;
+    }
+
+    .neighborhood-div3 {
+        width: 300px;
+    }
+
+    .neighborhood-div5 {
+        width: 300px;
+    }
+
+    .neighborhood {
+        width: 300px;
+    }
+}

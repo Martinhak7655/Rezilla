@@ -1,0 +1,174 @@
+.testimonial {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-icons-around {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-icons-around > div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #4361EE;
+    border-radius: 50%;
+    color: #4361EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-div1 {
+    width: 500px;
+    height: 360px;
+    border: 1px solid #D4D4D4;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.testimonial-div1 > hr {
+    width: 100%;
+    border: 1px solid #D4D4D4;
+}
+
+.testimonial-div1-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-div1-text1 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-div1-text1-img {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/738e6e77a92971e6075b85d18be0de93205d90cb?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+.testimonial-div1-text2 {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.testimonial-div2 {
+    width: 1200px;
+    height: 260px;
+    background-color: #3A0CA3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+.testimonial-div2-img {
+    width: 358px;
+    height: 100%;
+    background-image: url(https://www.figma.com/file/CHdl3KkkQdIbYJHYkUrvFM/image/c3c593fb3181180cd3d68307557bc76450ee89ef?fuid=1209954091980522394);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.testimonial-div2-column {
+   display: flex;
+   flex-direction: column;
+}
+
+.testimonial-but {
+    width: 165px;
+    height: 45px;
+    color: #3A0CA3;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.testimonial-but:hover {
+    background: none;
+    border: 1px solid #4361EE;
+    color: white;
+}
+
+.testimonial-h1 {
+    width: 415px;
+}
+
+.testimonial-p1 {
+    width: 415px;
+}
+
+.testimonial-p2 {
+    width: 380px;
+}
+
+@media screen and (max-width: 954px) {
+    .testimonial {
+        height: 1200px;
+    }
+    .testimonial-around {
+        flex-wrap: wrap;
+    }
+    .testimonial-column {
+        display: flex;
+        align-items: center;
+    }
+    .testimonial-h1 {
+        width: 280px;
+    }
+    .testimonial-p1 {
+        width: 280px;
+    }
+    .testimonial-div1 {
+        width: 333px;
+        margin-top: 20px;
+    }
+    .testimonial-p2 {
+        width: 200px;
+    }
+    .testimonial-div2 {
+        width: auto;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    .testimonial-div2-img {
+        display: none;
+    }
+    .testimonial-div1-text1-img {
+        width: 80px;
+        height: 50px;
+    }
+}

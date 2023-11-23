@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.header2 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-b {
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: #C5CEF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-rezilla {
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-icons {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #3A0CA3;
+    color: white;
+}
+
+.login {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-icons {
+    display: none;
+}
+
+.header2-but {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3A0CA3;
+    color: white;
+}
+
+.menu2 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 80px;
+}
+
+@media screen and (max-width:  533px) {
+    .login {
+        display: none;
+    }
+    .menu {
+        display: none;
+    }
+    .menu-icons {
+        display: block;
+    }
+}

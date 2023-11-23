@@ -1,0 +1,100 @@
+.customers-glxavor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customers {
+    width: 710px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: relative;
+    left: 450px;
+    top: -50px; */
+}
+
+.customers-div1 {
+    width: 360px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customers-flex {
+    display: flex;
+}
+
+.customers-img1 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customers-img2 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customers-img3 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customers-img4 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customers-img5 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.customers-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.customers-div2 {
+    width: 320px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customers-img6 {
+    width: 36px;
+    height: 36px;
+    background-image: url(Ellipse\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1132px) {
+
+    .customers {
+        flex-wrap: wrap;
+    }
+}

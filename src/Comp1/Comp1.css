@@ -1,0 +1,22 @@
+.header1 {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3A0CA3;
+    color: white;
+}
+
+.header1-flex {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 1128px) {
+    .header1 {
+        display: none;
+    }
+}
